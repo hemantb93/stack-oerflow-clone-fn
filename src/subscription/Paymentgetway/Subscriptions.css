@@ -1,0 +1,82 @@
+.payment-conatainer {
+  padding-top: 55px;
+  display: flex !important;
+  margin-left: calc(var(--su32) * -1) !important;
+  flex-flow: row wrap !important;
+  justify-content: center !important;
+  color: var(--black-750) !important;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.box {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid rgb(214, 142, 42);
+  border-radius: 20px;
+  margin: 10px;
+  width: 500px;
+}
+.payment-title {
+  border-radius: 5px;
+  width: 80px;
+  background-color: rgb(238, 161, 16);
+  color: white;
+  padding: 5px;
+  border: 1px solid red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-containt {
+  height: 150px;
+}
+.rupees {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  height: 45px;
+}
+.rupees-img {
+  width: 10px;
+  margin: 5px;
+  padding-top: 3px;
+}
+.rupees p {
+  display: inline;
+  font-size: medium;
+}
+.box-containt img {
+  height: 12px;
+  width: 12px;
+  padding-right: 5px;
+}
+.payment-conatainer button {
+  background-color: rgb(238, 161, 16);
+  border: 2px solid rgba(113, 106, 106, 0.8);
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  font-size: large;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.payment-conatainer button:hover {
+  background-color: rgb(240, 185, 82);
+  border: 2px solid rgba(236, 30, 30, 0.8);
+  color: rgb(134, 128, 128);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+hr {
+  border: 1px solid orange;
+}

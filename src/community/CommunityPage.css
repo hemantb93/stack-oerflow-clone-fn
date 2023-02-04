@@ -1,0 +1,9 @@
+.main {
+  background-color: #fbece3;
+  /* height: 100vh;
+  width: 100vh; */
+}
+.main-container {
+  padding-top: 60px;
+  display: flex;
+}
