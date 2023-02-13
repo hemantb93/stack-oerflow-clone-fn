@@ -212,6 +212,337 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       messages: [...prev.messages, botMessage],
     }));
   };
+  // java
+  const handleq21 = () => {
+    const botMessage = createChatBotMessage(
+      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq22 = () => {
+    const botMessage = createChatBotMessage(
+      "Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviours in a single unit. It helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities"
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq23 = () => {
+    const botMessage = createChatBotMessage(
+      "MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. "
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq24 = () => {
+    const botMessage = createChatBotMessage(
+      "MongoDB supports field, range-based, string pattern matching type queries. for searching the data in the database MongoDB support primary and secondary index on any fields MongoDB basically uses JavaScript objects in place of procedures MongoDB uses a dynamic database schema MongoDB is very easy to scale up or down"
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq25 = () => {
+    const botMessage = createChatBotMessage(
+      "A collection in MongoDB is a group of documents. If a document is the MongoDB analog of a row in a relational database, then a collection can be thought of as the analog to a table."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq26 = () => {
+    const botMessage = createChatBotMessage(
+      "MongoDB groups collections into databases. MongoDB can host several databases, each grouping together collections. Some reserved database names are as follows: admin,local,config"
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq27 = () => {
+    const botMessage = createChatBotMessage(
+      "Express.js, or simply Express, is a free, open-source, lightweight, and fast backend web application framework for Node.js. It is released as open-source software under the MIT License. It is designed for building single-page, multi-page, and hybrid web applications and APIs. It is called the de facto standard server framework for Node.js. "
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq28 = () => {
+    const botMessage = createChatBotMessage(
+      "Express.js is an automatically prebuilt Node.js framework that facilitates us to create server-side web applications faster and smarter. The main reason for choosing Express is its simplicity, minimalism, flexibility, and scalability characteristics."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq29 = () => {
+    const botMessage = createChatBotMessage(
+      "app.use( bodyParser.json() ); app.use(bodyParser.urlencoded({     // to support URL-encoded  extended: true }));  "
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq30 = () => {
+    const botMessage = createChatBotMessage(
+      "Google Firebase is a Google-backed app development platform that allows developers to create apps for iOS, Android, and the web. Firebase Realtime Database (Firebase) is a cloud-based NoSQL database that syncs and stores data in real-time across users."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq31 = () => {
+    const botMessage = createChatBotMessage(
+      "MySQL is a database management system for web servers. It can grow with the website as it is highly scalable. Most of the websites today are powered by MySQL."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq32 = () => {
+    const botMessage = createChatBotMessage(
+      "A database is a structured collection of data stored in a computer system and organized in a way to be quickly searched. With databases, information can be rapidly retrieved."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq33 = () => {
+    const botMessage = createChatBotMessage(
+      "The SQL in MySQL stands for Structured Query Language. This language is also used in other databases such as Oracle and Microsoft SQL Server."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq34 = () => {
+    const botMessage = createChatBotMessage(
+      "Next JS is a full-stack development React framework that is built over Node JS. It enables its users to render server-side services and build static as well as dynamic web applications. It is an open-source framework developed by Vercel and initially released in 2016. "
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq35 = () => {
+    const botMessage = createChatBotMessage(
+      "Node.js is an open-source, cross-platform JavaScript runtime environment and library to run web applications outside the client’s browser. It is used to create server-side web applications."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq36 = () => {
+    const botMessage = createChatBotMessage(
+      "PHP stands for PHP: Hypertext Preprocessor is a widely used open-source server-side scripting language especially suited for creating dynamic websites and mobile APIs."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq37 = () => {
+    const botMessage = createChatBotMessage(
+      "PEAR stands for “PHP Extension and Application Repository. PEAR is a framework and repository for all of the reusable PHP components. PEAR provides a higher level of programming for web developers. It contains all kinds of PHP code snippets and libraries. It also provides you with a command-line interface to automatically install packages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq38 = () => {
+    const botMessage = createChatBotMessage(
+      "Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq39 = () => {
+    const botMessage = createChatBotMessage(
+      "C is a mid-level and procedural programming language. The Procedural programming language is also known as the structured programming language is a technique in which large programs are broken down into smaller modules, and each module uses structured code. This technique minimizes error and misinterpretation."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq40 = () => {
+    const botMessage = createChatBotMessage(
+      "C++ is an object-oriented programming language created by Bjarne Stroustrup. It was released in 1985."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq41 = () => {
+    const botMessage = createChatBotMessage(
+      "jQuery is a fast, lightweight, feature-rich client-side JavaScript library. It is cross-platform and supports different types of browsers. It has provided a much-needed boost to JavaScript. Before jQuery, JavaScript codes were lengthy and bigger, even for smaller functions. It makes a website more interactive and attractive."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq42 = () => {
+    const botMessage = createChatBotMessage(
+      "The simple difference is that JavaScript is a language while jQuery is a built-in library built for JavaScript. jQuery simplifies the use of JavaScript language"
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq43 = () => {
+    const botMessage = createChatBotMessage(
+      "Angular is one of the most popular JavaScript frameworks developed and maintained by Google. It is an open-source front-end web framework based on TypeScript. It is most suited for developing enterprise web applications because its code is reusable and maintainable."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq44 = () => {
+    const botMessage = createChatBotMessage(
+      "SASS means Syntactically Awesome Style sheets. It is a CSS preprocessor which is used to reduce repetition with CSS and save time. It adds power and elegance to the basic language and facilitates you to add variables, nested rules, mixins, inline imports, inheritance and more, all with fully CSS-compatible syntax."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq45 = () => {
+    const botMessage = createChatBotMessage(
+      "Automation testing uses automation tools to write and execute test cases, no manual involvement is necessary for executing an automated test suite. Testers prefer automation tools to write test scripts and test cases and then group into test suites."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq46 = () => {
+    const botMessage = createChatBotMessage(
+      "Selenium is a portable framework for software testing. Selenium tool facilitates with a playback tool for authoring functional tests without the need to learn a test scripting language."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq47 = () => {
+    const botMessage = createChatBotMessage(
+      " JWTs are a good way of securely transmitting information between parties because they can be signed, which means you can be sure that the senders are who they say they are. Additionally, the structure of a JWT allows you to verify that the content hasn't been tampered with."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq48 = () => {
+    const botMessage = createChatBotMessage(
+      "Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments, and are easy to test. While it's mostly used as a state management tool with React, you can use it with any other JavaScript framework or library."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq49 = () => {
+    const botMessage = createChatBotMessage(
+      "The Router in React JS is primarily used to create Single Page Web Apps. In the application, React Router is utilized to define various routes. When a user enters a URL into your browser and the URL route equals one of several 'pathways' as in the router folder, the user is sent to that route."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq50 = () => {
+    const botMessage = createChatBotMessage(
+      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq51 = () => {
+    const botMessage = createChatBotMessage(
+      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq52 = () => {
+    const botMessage = createChatBotMessage(
+      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleq53 = () => {
+    const botMessage = createChatBotMessage(
+      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
 
   return (
     <div className="chatbot-action-container">
@@ -239,6 +570,39 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
             handleq18,
             handleq19,
             handleq20,
+            handleq21,
+            handleq22,
+            handleq23,
+            handleq24,
+            handleq25,
+            handleq26,
+            handleq27,
+            handleq28,
+            handleq29,
+            handleq30,
+            handleq31,
+            handleq32,
+            handleq33,
+            handleq34,
+            handleq35,
+            handleq36,
+            handleq37,
+            handleq38,
+            handleq39,
+            handleq40,
+            handleq41,
+            handleq42,
+            handleq43,
+            handleq44,
+            handleq45,
+            handleq46,
+            handleq47,
+            handleq48,
+            handleq49,
+            handleq50,
+            handleq51,
+            handleq52,
+            handleq53,
           },
         });
       })}
