@@ -171,20 +171,7 @@ const MessageParser = ({ children, actions }) => {
     }
     if (message.includes("what is router")) {
       actions.handleq49();
-    }
-    if (message.includes("what is java")) {
-      actions.handleq50();
-    }
-    if (message.includes("what is java")) {
-      actions.handleq51();
-    }
-    if (message.includes("what is java")) {
-      actions.handleq52();
-    }
-    if (message.includes("what is java")) {
-      actions.handleq53();
-    }
-    
+    }    
   };
 
   return (
