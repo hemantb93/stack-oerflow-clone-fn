@@ -503,46 +503,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       messages: [...prev.messages, botMessage],
     }));
   };
-  const handleq50 = () => {
-    const botMessage = createChatBotMessage(
-      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
-    );
-
-    setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, botMessage],
-    }));
-  };
-  const handleq51 = () => {
-    const botMessage = createChatBotMessage(
-      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
-    );
-
-    setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, botMessage],
-    }));
-  };
-  const handleq52 = () => {
-    const botMessage = createChatBotMessage(
-      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
-    );
-
-    setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, botMessage],
-    }));
-  };
-  const handleq53 = () => {
-    const botMessage = createChatBotMessage(
-      "Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages."
-    );
-
-    setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, botMessage],
-    }));
-  };
+ 
 
   return (
     <div className="chatbot-action-container">
@@ -599,10 +560,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
             handleq47,
             handleq48,
             handleq49,
-            handleq50,
-            handleq51,
-            handleq52,
-            handleq53,
           },
         });
       })}
